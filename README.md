@@ -39,7 +39,17 @@ Follow these steps to install the Arduino IDE, add ESP32 board support, and sele
 
 ---
 
-### 3. Select the ESP32-S3 Board
+### 3.  Install Libraries
+
+1. Open the Library Manager: **main menu > Tools > Manage Libraries...**  
+
+2. The Library Manager will show up on the left panel (where the Boards Manager was).
+   In the search box, enter `Adafruit Neopixel`, and click install on **Adafruit NeoPixel** by Adafruit  
+   - This may take a while
+  
+---
+
+### 4. Select the ESP32-S3 Board
 
 1. **Choose your board**  
    - Go to **Tools → Board → ESP32 Arduino → ESP32S3 Dev Module**  
@@ -51,11 +61,11 @@ Follow these steps to install the Arduino IDE, add ESP32 board support, and sele
 
 ---
 
-### 4. Enable OPI PSRAM
+### 5. Enable OPI PSRAM
 
 1. **Tools** -> **PSRAM** -> **OPI PSRAM**
 
-### 5. Open Code and Upload
+### 6. Open Code and Upload
 
 1. **Open the corresponding .ino file you wish to upload to the device** 
 2. **Upload file into ESP32 board**
