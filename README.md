@@ -69,5 +69,6 @@ Follow these steps to install the Arduino IDE, add ESP32 board support, and sele
 
 1. **Open the corresponding .ino file you wish to upload to the device** 
 2. **Upload file into ESP32 board**
+3. **You can also use Tools -> Serial Monitor to see what the device is printing out (e.g. light sensor readings)**
 
 ---
